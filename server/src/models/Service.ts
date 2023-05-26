@@ -11,4 +11,7 @@ export class Service {
     @Column()
     name_service: string
 
+    @Column()
+    descricao: string
+
 }

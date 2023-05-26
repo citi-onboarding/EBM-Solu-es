@@ -4,12 +4,12 @@ import { Citi, Crud } from '../global'
 
 export default class ImageController implements Crud{
     async create(request: Request, response: Response){
-        const{icone, name_service} = request.body
-        const isContentValid = Citi.areValuesUndefined(icone, name_service);    
+        const{icone, name_service, descricao} = request.body
+        const isContentValid = Citi.areValuesUndefined(icone, name_service, descricao);    
         if(isContentValid == true){
             return response.status(400).send()
         }
-        const newService = {icone, name_service}
+        const newService = {icone, name_service, descricao}
         const {httpStatus, message} = await Citi.insertIntoDatabase(Service, newService);
         return response.status(httpStatus).send({ message });
 
@@ -28,12 +28,12 @@ export default class ImageController implements Crud{
     }
     async update(request: Request, response: Response){
         const { id } = request.params;
-        const {icone, name_service } = request.body;
-        const isAnyUndefined = Citi.areValuesUndefined(icone, name_service, id);
+        const {icone, name_service, descricao} = request.body;
+        const isAnyUndefined = Citi.areValuesUndefined(icone, name_service, descricao,id);
         
         if(isAnyUndefined) return response.status(400).send();
 
-        const userWithUpdatedValues = {icone, name_service};
+        const userWithUpdatedValues = {icone, name_service, descricao};
         const { httpStatus, messageFromUpdate } = await Citi.updateValue(Service, id, userWithUpdatedValues);
 
         return response.status(httpStatus).send({ messageFromUpdate });
