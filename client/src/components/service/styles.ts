@@ -28,7 +28,7 @@ color: #FCFCFC;
 font-family: 'Anybody', cursive;
 `
 export const ServiceDescription = styled.p`
-font-size: 5px;
+font-size: 16px;
 line-height: 16px;
 color: #FCFCFC;
 font-family: 'Anybody', cursive;
