@@ -1,39 +1,59 @@
 import styled from 'styled-components'; 
 
-
-export const HomeContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
+export const Slogan = styled.div`
   h1 {
-    font-size: 54px;
-    color: ${(props) => props.theme.colors.primary};
-    margin-top: 40px;
-    text-align: center;
-
-    @media (max-width: 720px) {
-      font-size: 28px;
-    }
-  }
-  
-  p {
-
-    font-size: 20px;
-    margin-top: 24px;
-    line-height: 32px;
-
-    @media (max-width: 720px) {
-      font-size: 16px;
-      margin-top: 0;
-    }
+    position: absolute;
+    width: 386px;
+    height: 82px;
+    left: 119px;
+    top: 69px;
+    font-family: 'Anybody';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
   }
 
-  img {
-    width: 25%;
+  .color1{
+    color: #373737;
+  }
+
+  .color2{
+    color: #B85941;
+  }
+
+  .color3{
+    color: #735742;
   }
 `;
+
+export const Sobre = styled.p`
+  position: absolute;
+  width: 524px;
+  height: 187px;
+  left: 119px;
+  top: 205px;
+  font-family: 'Anybody';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #373737;
+`;
+
+export const NR12 = styled.div`
+  position: absolute;
+  width: 262px;
+  height: 69px;
+  left: 984px;
+  top: 219px;
+`;
+
+export const NR35 = styled.div`
+  position: absolute;
+  width: 262px;
+  height: 69px;
+  left: 743px;
+  top: 51px;
+`;
+
