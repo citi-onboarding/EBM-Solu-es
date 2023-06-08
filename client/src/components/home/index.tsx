@@ -1,4 +1,4 @@
-import {Container, ImageContainer, Line, Square, DivSquare, TextContainer, ImageComponent, Title, Text, MouseTextEN, MouseTextPT, MouseContainer, TextContainerMouse} from './styles';
+import {Container, ImageContainer, Line, Square, DivSquare, TextContainer, ImageComponent, Title, Text, MouseTextEN, MouseTextPT, MouseContainer, TextContainerMouse, SquareDiv} from './styles';
 
 type HomeProps = {
     Icon: React.FC;
@@ -13,7 +13,9 @@ export const HomeScreen = ({Icon, path, title, text, text2} : HomeProps) =>{
     return(
         <Container> 
             <DivSquare>
+            <SquareDiv>
             <Square></Square>
+            </SquareDiv>
             <TextContainer>
                 <Line></Line>
                 <Title>{title}</Title>

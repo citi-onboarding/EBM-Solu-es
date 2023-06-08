@@ -16,8 +16,8 @@ width: 262px;
 height: 6px;
 `
 export const Square = styled.div`
-position: relative;
-left: 560px;
+//position: relative;
+justify-content: center;
 top: 10px;
 width: 77px;
 height: 77px;
@@ -29,16 +29,15 @@ export const DivSquare = styled.div`
 align-items: center;
 flex-direction: column;
 height:100vh;
-
 `
 
 export const ImageContainer = styled.div`
-position:relative;
+//position:relative;
 left:40px;
 top: 40px;
 `
 export const TextContainer = styled.div`
-position:relative;
+//position:relative;
 left: 40px;
 top:40px;
 padding:40;
@@ -92,6 +91,10 @@ margin: 2px;
 export const TextContainerMouse = styled.div`
 display:flex;
 flex-direction: column;
+`
+export const SquareDiv = styled.div`
+display: flex;
+justify-content: flex-end;
 `
 
 
