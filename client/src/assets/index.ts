@@ -4,6 +4,8 @@ import Arconic from './arconic.png';
 import Bracell from './bracell.png';
 import Hth from './hth.png';
 import Ultipan from './ultipan.png';
+import imagem from './imagecarrosel.jpg'
+
 
 export {
     LogoCITi,
@@ -11,5 +13,6 @@ export {
     Arconic,
     Bracell,
     Hth,
-    Ultipan
+    Ultipan,
+    imagem
 };
