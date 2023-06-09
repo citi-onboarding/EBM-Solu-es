@@ -33,7 +33,7 @@ export default class UserController implements Crud {
 
     async update(request: Request, response: Response){
         const { id } = request.params;
-        const {firstName, lastName, age } = request.body;
+        const { firstName, lastName, age } = request.body;
 
         const isAnyUndefined = Citi.areValuesUndefined(firstName, lastName, age, id);
         if(isAnyUndefined) return response.status(400).send();

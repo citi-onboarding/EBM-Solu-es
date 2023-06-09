@@ -1,5 +1,4 @@
 import React from "react";
-import { HomeContainer } from './styles';
 import { LogoCITi } from '../../assets';
 import {ServiceCard} from '../../components/service/index'
 import {ImageCarrosel} from '../../components/clientsimage/index'
