@@ -1,5 +1,10 @@
-import { Home } from './home';
+import { SobreNos } from './SobreNos';
+import { NossosClientes } from './NossosClientes';
+import { Nav } from './BarraNavegação'
+
 
 export {
-    Home
+    SobreNos,
+    NossosClientes,
+    Nav
 };

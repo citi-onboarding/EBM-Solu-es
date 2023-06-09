@@ -38,13 +38,3 @@ export const Caption = styled.p`
     margin: 0%;
     width: 258px;
 `
-
-export const Line = styled.hr`
-    position: absolute;
-    width: 293px;
-    height: 4px;
-    left: 119px;
-    top: 170px;
-    background: linear-gradient(163.86deg, #B85941 -7.74%, #735742 160.51%);
-    color: #B85941;
-`

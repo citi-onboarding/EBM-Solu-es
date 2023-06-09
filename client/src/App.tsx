@@ -3,13 +3,16 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 
-
-import { Home } from './pages';
+import { Nav } from './pages';
+import { SobreNos } from './pages';
+import { NossosClientes } from './pages/';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
+      {/* <Nav/> */}
+      <SobreNos/>
+      <NossosClientes/>
     </ThemeProvider>
   );
 }
