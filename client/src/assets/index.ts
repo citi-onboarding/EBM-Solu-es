@@ -5,6 +5,7 @@ import Bracell from './bracell.png';
 import Hth from './hth.png';
 import Ultipan from './ultipan.png';
 import imagem from './imagecarrosel.jpg'
+import EBM from './Group (1).png'
 
 
 export {
@@ -14,5 +15,6 @@ export {
     Bracell,
     Hth,
     Ultipan,
-    imagem
+    imagem,
+    EBM
 };
