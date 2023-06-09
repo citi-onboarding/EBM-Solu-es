@@ -5,7 +5,7 @@ import Bracell from './bracell.png';
 import Hth from './hth.png';
 import Ultipan from './ultipan.png';
 import imagem from './imagecarrosel.jpg'
-
+import imagehome from './imagehome.jpg'
 
 export {
     LogoCITi,
@@ -14,5 +14,6 @@ export {
     Bracell,
     Hth,
     Ultipan,
-    imagem
+    imagem,
+    imagehome
 };

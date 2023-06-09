@@ -11,7 +11,6 @@ flex-direction: column;
 justify-content: space-around;
 box-shadow: ${(props)=>props.selected ? "0px 0px 10px 0px rgba(0,0,0,0,75)":"none"};
 margin: 20px;
-border-radius: 5%;
 padding: 20px;
 box-sizing: border-box;
 width: 302px;

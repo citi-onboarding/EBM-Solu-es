@@ -7,12 +7,17 @@ import { Nav } from './pages';
 import { SobreNos } from './pages';
 import { NossosClientes } from './pages/';
 
+import { Service } from '../../client/src/pages/service';
+import { Home } from '../../client/src/pages/home';
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Nav/>
       <SobreNos/>
       <NossosClientes/>
+      <Home/>
+      <Service/>
     </ThemeProvider>
   );
 }
