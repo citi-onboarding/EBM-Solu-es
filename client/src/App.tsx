@@ -13,10 +13,10 @@ import { Home } from '../../client/src/pages/home';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Nav/>
+      {/* <Nav/> */}
+      <Home/>
       <SobreNos/>
       <NossosClientes/>
-      <Home/>
       <Service/>
     </ThemeProvider>
   );
