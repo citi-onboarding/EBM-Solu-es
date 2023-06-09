@@ -9,6 +9,7 @@ import { NossosClientes } from './pages/';
 
 import { Service } from '../../client/src/pages/service';
 import { Home } from '../../client/src/pages/home';
+import { FooterScreen } from '../../client/src/pages/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SobreNos/>
       <NossosClientes/>
       <Service/>
+      <FooterScreen/>
     </ThemeProvider>
   );
 }
