@@ -10,7 +10,7 @@ import { NossosClientes } from './pages/';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      {/* <Nav/> */}
+      <Nav/>
       <SobreNos/>
       <NossosClientes/>
     </ThemeProvider>

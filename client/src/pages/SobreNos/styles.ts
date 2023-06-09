@@ -10,6 +10,7 @@ export const Title = styled.div`
   justify-content: right;
   flex-direction: column;
   padding-top: 69px;
+ // margin: 0%;
 `;
 
 export const Texto = styled.div`
@@ -24,6 +25,11 @@ export const Container = styled.div`
 `;
 
 export const Slogan = styled.div`
+  display: flex;
+  flex-direction: column;
+  //background-color: red;
+  gap: 0,5px;
+  //justify-content: flex-start;
   h1 {
     width: 386px;
     height: 82px;
@@ -32,6 +38,7 @@ export const Slogan = styled.div`
     font-weight: 700;
     font-size: 40px;
     line-height: 41px;
+    margin: 0%;
   }
 
   .color1{
@@ -74,10 +81,10 @@ export const NR = styled.div`
 `;
 
 export const Line = styled.hr`
-    position: absolute;
+    //position: absolute;
+    margin: 0%;
     width: 293px;
     height: 4px;
-    top: 176px;
     background: linear-gradient(163.86deg, #B85941 -7.74%, #735742 160.51%);
     color: #B85941;
 `
