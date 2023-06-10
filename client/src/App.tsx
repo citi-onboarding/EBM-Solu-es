@@ -14,7 +14,7 @@ import { FooterScreen } from '../../client/src/pages/footer';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      {/* <Nav/> */}
+      <Nav/>
       <Home/>
       <SobreNos/>
       <NossosClientes/>
