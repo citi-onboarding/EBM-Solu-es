@@ -17,8 +17,8 @@ function App() {
       <Nav/>
       <Home/>
       <SobreNos/>
-      <NossosClientes/>
       <Service/>
+      <NossosClientes/>
       <FooterScreen/>
     </ThemeProvider>
   );

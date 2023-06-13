@@ -21,6 +21,7 @@ export const Card = styled.div`
     margin-left: 109px;
     background-color: #B85941;
     border-radius: 4px;
+    cursor: pointer;
     
 `;
 
