@@ -1,15 +1,17 @@
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
-
 @Entity()
-export class Image {
 
+export class Service {
     @PrimaryGeneratedColumn()
     id: number
 
     @Column()
-    image: string 
+    icone: string 
 
     @Column()
-    name: string 
+    name_service: string
+
+    @Column()
+    descricao: string
 
 }
