@@ -10,5 +10,6 @@ export const ImageComponent = styled.img`
     height: ${(props)=>props.height};
     width: ${(props)=>props.width};
     border-radius: 10px;
-    margin-left:51px;
+
+    margin-left: 35px;
 `;

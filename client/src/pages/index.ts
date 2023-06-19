@@ -4,6 +4,7 @@ import { Nav } from './BarraNavegação'
 import { Service } from './service';
 import { Home } from './home';
 import { FooterScreen } from '../../src/pages/footer/index'
+import { Carrossel } from './carrossel';
 
 export {
     SobreNos,
@@ -11,5 +12,6 @@ export {
     Nav,
     Home,
     Service,
-    FooterScreen
+    FooterScreen,
+    Carrossel    
 };
