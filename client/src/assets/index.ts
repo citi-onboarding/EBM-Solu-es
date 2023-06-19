@@ -6,6 +6,9 @@ import Hth from './hth.png';
 import Ultipan from './ultipan.png';
 import imagem from './imagecarrosel.jpg'
 import imagehome from './imagehome.jpg'
+import imagecarrosel from './imagecarrosel.jpg'
+import setadireita from './setadireitadeverdade.png'
+import setaesquerda from './setaesquerdadeverdade.png'
 
 export {
     LogoCITi,
@@ -15,5 +18,8 @@ export {
     Hth,
     Ultipan,
     imagem,
-    imagehome
+    imagehome,
+    imagecarrosel,
+    setadireita,
+    setaesquerda
 };
