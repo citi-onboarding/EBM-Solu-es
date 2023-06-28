@@ -1,4 +1,4 @@
-import { Container,BlackBackground, Gradient, DivMiddle, Line, DivText, Contact, Email, BottomPart, BottomText, NotGradient} from "./styles"; 
+import { Container, BlackBackground, Gradient, DivMiddle, Line, DivText, Contact, Email, BottomPart, BottomText, NotGradient } from "./styles";
 
 type FooterProps = {
     textcontact: string;
@@ -10,23 +10,23 @@ type FooterProps = {
     IconCITi: React.FC;
 }
 
-export const Footer = ({textcontact, email, textbottom, by, Icon, IconHeart, IconCITi}: FooterProps) => {
-    return(
+export const Footer = ({ textcontact, email, textbottom, by, Icon, IconHeart, IconCITi }: FooterProps) => {
+    return (
         <Container>
             <Gradient>
                 <BlackBackground>
                     <DivMiddle>
-                    <Icon/>
-                    <DivText>
-                        <Contact>{textcontact}</Contact>
-                        <Email>{email}</Email>
-                    </DivText>
+                        <Icon />
+                        <DivText>
+                            <Contact>{textcontact}</Contact>
+                            <Email>{email}</Email>
+                        </DivText>
                     </DivMiddle>
                     <BottomPart>
                         <BottomText>{textbottom}</BottomText>
-                        <IconHeart/>
+                        <IconHeart />
                         <BottomText>{by}</BottomText>
-                        <IconCITi/>
+                        <IconCITi />
                     </BottomPart>
                 </BlackBackground>
             </Gradient>

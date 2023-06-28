@@ -7,6 +7,9 @@ import Ultipan from './ultipan.png';
 import imagem from './imagecarrosel.jpg'
 import imagehome from './imagehome.jpg'
 import EBM from './Group (1).png'
+import imagecarrosel from './imagecarrosel.jpg'
+import setadireita from './setadireitadeverdade.png'
+import setaesquerda from './setaesquerdadeverdade.png'
 
 export {
     LogoCITi,
@@ -17,5 +20,8 @@ export {
     Ultipan,
     imagem,
     imagehome,
-    EBM
+    EBM,
+    imagecarrosel,
+    setadireita,
+    setaesquerda
 };

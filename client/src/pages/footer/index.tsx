@@ -5,9 +5,9 @@ import { IconHeart } from "../../components/icons/iconesimagens";
 import { Footer } from "../../components/footer/index";
 
 export const FooterScreen: React.FC = () => {
-    return(
+    return (
         <>
-        <Footer textcontact= {"CONTATO"} email= {"ebmsoluções.diretoria@gmail.com"} textbottom="Made with </> and" by= {"by"} Icon={IconLogo} IconHeart={IconHeart} IconCITi={IconCITi}/>
+            <Footer textcontact={"CONTATO"} email={"ebmsoluções.diretoria@gmail.com"} textbottom="Made with </> and" by={"by"} Icon={IconLogo} IconHeart={IconHeart} IconCITi={IconCITi} />
         </>
     )
 }

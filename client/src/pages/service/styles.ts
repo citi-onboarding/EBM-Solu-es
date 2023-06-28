@@ -53,7 +53,7 @@ width: 77px;
 height: 77px;
 background: linear-gradient(286.01deg, #B85941 22.29%, #735742 171.77%);
 border-radius: 10px;
-margin: 10px;
+margin-right: 100px;
 `
 export const DivMain = styled.div`
 height: 100vh;
@@ -77,7 +77,7 @@ export const DivSquare = styled.div`
 width: 100%;
 display: flex;
 justify-content: flex-end;
-padding-right: 107px;
+/* padding-right: 107px; */
 `
 export const Line = styled.div`
 width: 195px;
@@ -89,6 +89,7 @@ background: #B85941;
 margin: 0%;
 `
 export const DivLine = styled.div`
+
 height: 100px;
 width: 30%;
 display: flex;
