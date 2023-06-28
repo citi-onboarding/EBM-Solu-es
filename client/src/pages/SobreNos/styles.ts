@@ -10,13 +10,14 @@ export const Title = styled.div`
   justify-content: right;
   flex-direction: column;
   padding-top: 69px;
- // margin: 0%;
+
 `;
 
 export const Texto = styled.div`
   display: flex;
   justify-content: right;
   flex-direction: column;
+  margin-top: 30px;
 `;
 
 export const Container = styled.div`
@@ -27,9 +28,8 @@ export const Container = styled.div`
 export const Slogan = styled.div`
   display: flex;
   flex-direction: column;
-  //background-color: red;
   gap: 0,5px;
-  //justify-content: flex-start;
+
   h1 {
     width: 386px;
     height: 82px;
@@ -77,11 +77,9 @@ export const NR12 = styled.div`
 
 export const NR = styled.div`
   width: 50%;
-  //background-color: aquamarine;
 `;
 
 export const Line = styled.hr`
-    //position: absolute;
     margin: 0%;
     width: 293px;
     height: 4px;
