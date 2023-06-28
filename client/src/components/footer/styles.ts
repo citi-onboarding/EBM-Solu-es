@@ -6,7 +6,6 @@ export const NotGradient = styled.div`
 height: 2000px;
 `
 export const BlackBackground = styled.div`
-width: 1366px;
 height: 432px;
 background: #373737;
 margin-bottom: 14px;
@@ -14,6 +13,7 @@ display: flex;
 flex-flow: column;
 justify-content: end;
 align-items: center;
+
 `
 export const DivMiddle = styled.div`
 margin-top: 250px;
@@ -25,7 +25,6 @@ border-bottom: 1px solid #FFFFFF;
 width: 80%;
 `
 export const Gradient = styled.div`
-width: 1366px;
 height: 711px;
 background: linear-gradient(5.31deg, #B85941 30.44%, rgba(217, 217, 217, 0) 91.08%);
 display: flex;

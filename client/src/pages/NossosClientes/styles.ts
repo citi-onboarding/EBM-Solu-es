@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  padding: 88px;
+  padding: 88px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 `;
 
 export const Div1 = styled.div`
+  margin-top: 50px;
   display: flex;
   gap: 130px;
   align-items:center;
