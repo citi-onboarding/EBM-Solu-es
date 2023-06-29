@@ -2,6 +2,7 @@ import express from 'express';
 import UserController from '@controllers/UserController'
 import ImageController from '@controllers/ImageController';
 import ServiceController from '@controllers/ServiceController'
+import { SendMail } from '@controllers/MailController';
 
 const routes = express.Router();
 const serviceController = new ServiceController();
@@ -22,5 +23,7 @@ routes.post('/user', userController.create);
 routes.get('/user', userController.get);
 routes.delete('/user/:id', userController.delete);
 routes.put('/user/:id', userController.update);
+
+routes.post('/email', SendMail)
 
 export default routes;
