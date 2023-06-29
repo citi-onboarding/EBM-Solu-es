@@ -5,25 +5,28 @@ import { Cliente } from "../../components";
 import { Card, Ebm, Main, Preto, Texto, Texto2 } from "./styles";
 
 export const Nav: React.FC = () => {
-    return(
+    return (
         <Main>
             <Ebm>
                 <Cliente
-                src = {EBM}
-                width= "78px"
-                height= "33.45px"
+                    src={EBM}
+                    width="78px"
+                    height="33.45px"
                 />
             </Ebm>
 
             <Preto>
-                <Texto2>Início</Texto2> <Texto2>Quem Somos</Texto2> <Texto2>Serviços</Texto2> <Texto2>Cases</Texto2>
+                <Texto2>Início</Texto2> 
+                <Texto2>Quem Somos</Texto2> 
+                <Texto2>Serviços</Texto2> 
+                <Texto2>Cases</Texto2>
             </Preto>
 
             <Card>
                 <Texto>Contato</Texto>
             </Card>
-            
-            
+
+
         </Main>
     );
 }

@@ -1,7 +1,106 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-`
+    position: relative;
+
+`;
+
+// Forms
+export const Formulario = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index:1000;
+    position: absolute;
+    left: 15rem;
+    bottom: 15rem;
+`;
+
+export const Form = styled.form`
+    width: 55.3125rem;
+    height: 33.25rem; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 3px;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FFFFFF;
+`;
+
+export const TitleForm = styled.h2`
+    color: var(--primria-preto, #373737);
+    text-align: center;
+    /* título */
+    font-size: 2.5rem;
+    font-family: Anybody;
+    font-weight: 700; 
+`;
+
+export const LineForm = styled.div`
+    margin-top: 2.5rem;
+    width: 55.3125rem;
+    height: 0.5rem; 
+    background: var(--primria-laranja, #B85941);
+`;
+
+export const InputDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 41.25rem; 
+
+    
+`;
+
+export const Label = styled.label`
+    color: var(--primria-preto, #373737);
+    font-size: 1.125rem;
+    font-family: Anybody;
+    font-weight: 500;
+    line-height: 1.75rem;
+`;
+
+export const Input = styled.input`
+    border: none;
+    border-bottom: 2px solid #B85941;
+    outline: none;
+
+    font-size: 1.125rem;
+    font-family: Anybody; 
+`;
+
+export const TextArea = styled.textarea`
+    border: none;
+    border-bottom: 2px solid #B85941;
+    outline: none;
+    font-size: 1.125rem;
+    font-family: Anybody;   
+`;
+
+export const Button = styled.button`
+    cursor: pointer;
+    display: inline-flex;
+    padding: 1rem 3.6875rem;
+    align-items: flex-start;
+    gap: 0.625rem; 
+
+    border-radius: 4px;
+    background: var(--primria-laranja, #B85941);
+    outline: none;
+    border: none;
+    /* details - texto */
+    font-size: 1.125rem;
+    font-family: Anybody;
+    font-weight: 500;
+    line-height: 1.75rem; 
+    color: #FFF2F2;
+`;
+
+// background
 export const NotGradient = styled.div`
 height: 2000px;
 `
@@ -25,10 +124,10 @@ border-bottom: 1px solid #FFFFFF;
 width: 80%;
 `
 export const Gradient = styled.div`
-height: 711px;
-background: linear-gradient(5.31deg, #B85941 30.44%, rgba(217, 217, 217, 0) 91.08%);
-display: flex;
-flex-flow: column-reverse;
+    height: 60rem; 
+    background: linear-gradient(5.31deg, #B85941 30.44%, rgba(217, 217, 217, 0) 91.08%);
+    display: flex;
+    flex-flow: column-reverse;
 `
 
 export const Line = styled.div`
