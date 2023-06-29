@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
+  /* html {
 
     @media (max-width: 1080px) {
       font-size: 93.75%;
@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: sans-serif;
-  }
+  } */
 
   button {
     cursor: pointer;
